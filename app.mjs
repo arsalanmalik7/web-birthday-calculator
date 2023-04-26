@@ -35,7 +35,7 @@ window.calculateBirthday = function () {
     let age = currentYear - year;
     const monthIndex = twelveMonths.indexOf(month);
 
-    if (date !== currentDate && monthIndex < currentMonth) {
+    if (date !== currentDate && monthIndex !== currentMonth) {
         age = age - 1;
     }
 
