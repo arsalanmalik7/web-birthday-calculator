@@ -54,10 +54,11 @@ window.calculateBirthday = function () {
 
     // Display the time remaining until the next birthday in the result-para element
     document.querySelector("#result-para").innerHTML = `You are ${age} years old and your next birthday 
-    is on ${twelveMonths[monthIndex]} ${date}, ${year + age}.<br>Time remaining until your next 
+    is on ${twelveMonths[monthIndex]} ${date}, ${year + age + 1}.<br>Time remaining until your next 
     birthday: ${daysRemaining} days, ${hoursRemaining} hours, ${minutesRemaining} minutes,
     and ${secondsRemaining} seconds.`;
 
     setInterval(calculateBirthday, 1000);
+
 
 }
