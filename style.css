@@ -1,0 +1,46 @@
+body {
+    background: -webkit-linear-gradient(rgb(250, 149, 166), rgb(255, 195, 205));
+    display: flex;
+    font-family: cursive;
+    flex-direction:column ;
+}
+
+#card {
+    width: 500px;
+    background-color: rgb(165, 210, 250);
+    padding: 20px;
+    border-radius: 1.5rem;
+    margin: auto auto;
+}
+
+#months,
+#date,
+#year {
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: 1rem;
+    border-color: rgb(108, 57, 167);
+    border-radius: 1rem;
+}
+
+input[type=submit]{
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: -2px 4px 3px rgb(206, 93, 206);
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+}
+
+#result{
+    width: 500px;
+    background-color: rgb(165, 210, 250);
+    padding: 20px;
+    border-radius: 1.5rem;
+    margin-top: 2rem !important;
+    margin: auto auto;
+}
